@@ -10,9 +10,9 @@
     $ cd amazon-sandbox
 
 #### 2. Build docker image
-    $ docker build -t amazon-sandbox .
+    $ sudo docker build -t amazon-sandbox .
 
 #### 3. Start docker image
-    $ docker run --name amazon-sandbox -d -it -p 8080:8080 amazon-sandbox
+    $ sudo docker run --name amazon-sandbox -d -it -p 8080:8080 amazon-sandbox
 
 #### 4. Your browser to (http://localhost:8888/RVSSandbox/)
