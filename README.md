@@ -15,4 +15,4 @@
 #### 3. Start docker image
     $ sudo docker run --name amazon-sandbox -d -it -p 8080:8080 amazon-sandbox
 
-#### 4. Your browser to (http://localhost:8888/RVSSandbox/)
+#### 4. Your browser to (http://localhost:8080/RVSSandbox/)
